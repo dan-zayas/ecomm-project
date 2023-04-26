@@ -4,7 +4,7 @@ import { Outlet } from "react-router-dom";
 import CartIcon from "../../components/cart-icon/cart-icon.component";
 import CartDropdown from "../../components/cart-dropdown/cart-dropdown.component";
 
-import { ReactComponent as CrwnLogo } from '../../assets/crown.svg';
+import { ReactComponent as Logo } from '../../assets/dinosaur.svg';
 import { UserContext } from "../../contexts/user.context"; 
 import { CartContext } from "../../contexts/cart.context";
 
@@ -20,7 +20,7 @@ const Navigation = () => {
     <Fragment>
       <NavigationContainer>
           <LogoContainer to='/'>
-              <CrwnLogo className='logo' />
+              <Logo className='logo' />
           </LogoContainer>
           <NavLinks>
             <NavLink to="/shop">
