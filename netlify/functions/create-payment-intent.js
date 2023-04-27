@@ -1,6 +1,6 @@
 require("dotenv").config();
 
-const apiKey = import.meta.env.STRIPE_SECRET_KEY;
+const apiKey = `${import.meta.env.STRIPE_SECRET_KEY}`;
 
 console.log(apiKey);
 
