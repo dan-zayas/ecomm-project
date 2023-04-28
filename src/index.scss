@@ -7,9 +7,10 @@
 body {
     margin: 0;
     padding: 20px 40px;
+    background-color: #121212;
+    color: #fff;
 }
 
-a {
+a, a:visited, a:hover, a:active {
     text-decoration: none;
-    color: black;
 }
